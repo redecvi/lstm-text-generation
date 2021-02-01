@@ -4,6 +4,7 @@ import keras
 from keras import layers
 import numpy as np
 
+
 path = keras.utils.get_file(
     'nietzsche.txt',
     origin='https://s3.amazonaws.com/text-datasets/nietzsche.txt')
